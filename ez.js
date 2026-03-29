@@ -158,6 +158,10 @@ async function gitCommit(count) {
       return;
     }
 
+    // ✅ FIX ตรงนี้
+    await git.addConfig("user.name", "github-actions");
+    await git.addConfig("user.email", "actions@github.com");
+
     await git.commit(`update ${count} movies`);
 
     await git.push("origin", "HEAD:main");

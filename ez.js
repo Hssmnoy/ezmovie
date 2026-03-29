@@ -163,10 +163,13 @@ async function gitCommit(count) {
 
     await git.commit(`update ${count} movies`);
 
-    // 🔥 เพิ่มตรงนี้
-    await git.pull("origin", "main", { "--rebase": "true" });
+    // 🔥 กันชน (สำคัญมาก)
+    await git.pull("origin", "main", { "--rebase": "true" }).catch(() => {});
 
-    await git.push("origin", "HEAD:main");
+    // 🔥 push แบบปลอดภัย
+    await git.push("origin", "HEAD:main", {
+      "--force-with-lease": null,
+    });
 
     console.log("🚀 pushed:", count);
   } catch (e) {

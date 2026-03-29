@@ -22,7 +22,7 @@ const CATEGORIES = [
   "/movies/หนังผู้ใหญ่-18-adult",
 ];
 
-const TEST_MODE = true;   //false//true;
+const TEST_MODE = false;   //false//true;
 const MAX_PAGES = TEST_MODE ? 1 : 5;
 
 const SAVE_EVERY = 30;

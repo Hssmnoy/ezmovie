@@ -23,7 +23,6 @@ const CATEGORIES = [
 ];
 
 const TEST_MODE = false;   //false//true;
-const MAX_PAGES = TEST_MODE ? 1 : 5;
 
 const SAVE_EVERY = 30;
 const COMMIT_EVERY = 50;
@@ -188,7 +187,9 @@ async function gitCommit(count) {
   let categoryList = [];
   let lastFirstMovie = "";
 
-  for (let page = 1; page <= MAX_PAGES; page++) {
+  let page = 1;
+
+while (true) {
     const movies = await getMovies(cat, page);
    console.log(`📄 page ${page} → ${movies.length} เรื่อง`);
     // ❗ ไม่มีหนัง
@@ -217,11 +218,12 @@ async function gitCommit(count) {
         await new Promise(r => setTimeout(r, 300));
         
 	const item = {
-          title: m.title,
-          group: cat.replace("/movies/", ""),
-          logo: m.image,
-          servers
-        };
+  title: m.title,
+  group: cat.replace("/movies/", ""),
+  logo: m.image,
+  movieUrl: m.movieUrl, // ✅ เพิ่มบรรทัดนี้
+  servers
+};
 
         categoryList.push(item);
         resume.done.push(m.movieUrl);
@@ -238,6 +240,7 @@ async function gitCommit(count) {
   await gitCommit(total);
 }
       }
+	 page++; 
     }
 
     // 💾 save ตอนจบหมวด

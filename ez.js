@@ -151,11 +151,20 @@ function saveCategory(group, list) {
 async function gitCommit(count) {
   try {
     await git.add(".");
+
+    const status = await git.status();
+    if (status.files.length === 0) {
+      console.log("⚠️ no changes");
+      return;
+    }
+
     await git.commit(`update ${count} movies`);
-    await git.push();
-    console.log("🚀 pushed to github");
+
+    await git.push("origin", "HEAD:main");
+
+    console.log("🚀 pushed:", count);
   } catch (e) {
-    console.log("⚠️ git error");
+    console.log("⚠️ git error:", e.message);
   }
 }
 

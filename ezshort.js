@@ -317,4 +317,5 @@ if (categoryList.length > 0) {
   saveAll(allList);
 
   console.log("✅ DONE:", total);
+}	  
 })();

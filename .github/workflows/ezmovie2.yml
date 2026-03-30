@@ -8,11 +8,6 @@ on:
 permissions:
   contents: write
 
-# 🔥 กัน workflow ชนกัน
-concurrency:
-  group: ezmovie-scrape
-  cancel-in-progress: true
-
 jobs:
   scrape:
     runs-on: ubuntu-latest

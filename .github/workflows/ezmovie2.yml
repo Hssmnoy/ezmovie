@@ -3,7 +3,7 @@ name: EZMovie2
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "0 12 * * *"
 
 permissions:
   contents: write

@@ -26,10 +26,14 @@ const COMMIT_EVERY = 50;
 
 const PROJECT_NAME = "ezshort"; // 🔥 เปลี่ยนชื่อตามโปรเจคนี้
 const RESUME_FILE = `./resume/${PROJECT_NAME}.json`;
-
-
 if (!fs.existsSync("./resume")) {
   fs.mkdirSync("./resume");
+}
+
+const DATA_DIR = "./data";
+
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
 }
 // ================= FETCH =================
 async function fetchHTML(url) {
@@ -132,9 +136,9 @@ function saveCategory(group, list) {
   const safe = group.replace(/[^\wก-๙]/g, "_");
 
   fs.writeFileSync(
-    `playlist_${safe}.json`,
-    JSON.stringify(list, null, 2)
-  );
+  `${DATA_DIR}/playlist_${safe}.json`,
+  JSON.stringify(list, null, 2)
+);
 
   let m3u = "#EXTM3U\n";
 
@@ -145,14 +149,14 @@ function saveCategory(group, list) {
     });
   });
 
-  fs.writeFileSync(`playlist_${safe}.m3u`, m3u);
+  fs.writeFileSync(`${DATA_DIR}/playlist_${safe}.m3u`, m3u);
 }
 
 function saveAll(list) {
   fs.writeFileSync(
-    `playlist_all.json`,
-    JSON.stringify(list, null, 2)
-  );
+  `${DATA_DIR}/playlist_all.json`,
+  JSON.stringify(list, null, 2)
+);
 
   let m3u = "#EXTM3U\n";
 
@@ -163,12 +167,21 @@ function saveAll(list) {
     });
   });
 
-  fs.writeFileSync(`playlist_all.m3u`, m3u);
+  fs.writeFileSync(`${DATA_DIR}/playlist_all.m3u`, m3u);
 }
 
 // ================= GIT =================
 async function gitCommit(count) {
   try {
+
+    // ✅ set config ครั้งเดียวพอ
+    await git.addConfig("user.name", "github-actions");
+    await git.addConfig("user.email", "actions@github.com");
+
+    // ✅ ดึงก่อน (สำคัญ)
+    await git.pull("origin", "main", { "--rebase": "true" }).catch(() => {});
+
+    // ✅ add
     await git.add(".");
 
     const status = await git.status();
@@ -177,20 +190,14 @@ async function gitCommit(count) {
       return;
     }
 
-    await git.addConfig("user.name", "github-actions");
-    await git.addConfig("user.email", "actions@github.com");
-
+    // ✅ commit
     await git.commit(`update ${count} movies`);
 
-    // 🔥 กันชน (สำคัญมาก)
-    await git.pull("origin", "main", { "--rebase": "true" }).catch(() => {});
-
-    // 🔥 push แบบปลอดภัย
-    await git.push("origin", "HEAD:main", {
-      "--force-with-lease": null,
-    });
+    // ✅ push ปกติ (พอแล้ว)
+    await git.push("origin", "main");
 
     console.log("🚀 pushed:", count);
+
   } catch (e) {
     console.log("⚠️ git error:", e.message);
   }

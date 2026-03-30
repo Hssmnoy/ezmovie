@@ -50,7 +50,7 @@ function loadResume() {
   if (fs.existsSync(RESUME_FILE)) {
     return JSON.parse(fs.readFileSync(RESUME_FILE));
   }
-  return { done: [] };
+  return { done: {} }; // ⭐ เปลี่ยนตรงนี้
 }
 
 function saveResume(data) {
@@ -179,9 +179,30 @@ async function gitCommit(count) {
 // ================= MAIN =================
 (async () => {
   const resume = loadResume();
+
+	for (const cat of CATEGORIES) {
+
+  const safe = cat.replace("/movies/", "").replace(/[^\wก-๙]/g, "_");
+  const file = `playlist_${safe}.json`;
+
+  if (fs.existsSync(file)) {
+    const old = JSON.parse(fs.readFileSync(file));
+
+    if (!resume.done[cat]) resume.done[cat] = [];
+
+    old.forEach(m => {
+  if (m.movieUrl && !resume.done[cat].includes(m.movieUrl)) {
+    resume.done[cat].push(m.movieUrl);
+  }
+});
+  }
+}
   let total = 0;
 
   for (const cat of CATEGORIES) {
+	  if (!resume.done[cat]) {
+  resume.done[cat] = [];
+}
   console.log(`\n===== 📁 ${cat} =====`);
 
   let categoryList = [];
@@ -209,11 +230,18 @@ while (true) {
     const list = TEST_MODE ? movies.slice(0, 3) : movies;
 
     for (const m of list) {
-      if (resume.done.includes(m.movieUrl)) continue;
+      if (resume.done[cat].includes(m.movieUrl)) continue;
 
       console.log(`🎬 ${m.title}`);
 
-        const servers = await getMoviePage(m.movieUrl);
+        let servers = [];
+
+try {
+  servers = await getMoviePage(m.movieUrl);
+} catch {
+  console.log("❌ movie error:", m.movieUrl);
+  continue;
+}
         if (!servers.length) continue;
         await new Promise(r => setTimeout(r, 300));
         
@@ -226,7 +254,10 @@ while (true) {
 };
 
         categoryList.push(item);
-        resume.done.push(m.movieUrl);
+       resume.done[cat].push(m.movieUrl);
+		if (resume.done[cat].length > 2000) {
+  resume.done[cat] = resume.done[cat].slice(-2000);
+}
         total++;
 
               if (total % SAVE_EVERY === 0) {

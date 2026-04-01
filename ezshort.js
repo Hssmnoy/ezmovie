@@ -209,7 +209,12 @@ async function gitCommit(count) {
   const resume = loadResume();
   let total = 0;
   let allList = [];
+	
+const allFile = `${DATA_DIR}/playlist_all.json`;
 
+if (fs.existsSync(allFile)) {
+  allList = JSON.parse(fs.readFileSync(allFile));
+}
 
   for (const cat of CATEGORIES) {
   console.log(`\n===== 📁 ${cat} =====`);
@@ -217,7 +222,7 @@ async function gitCommit(count) {
   let categoryList = [];
 
 const safe = cat.replace("/movies/", "").replace(/[^\wก-๙]/g, "_");
-const file = `playlist_${safe}.json`;
+const file = `${DATA_DIR}/playlist_${safe}.json`;   // ✅ ใช้ path เดียวกับ save
 
 if (fs.existsSync(file)) {
   categoryList = JSON.parse(fs.readFileSync(file));

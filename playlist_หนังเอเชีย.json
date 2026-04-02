@@ -13318,5 +13318,41 @@
         "url": "https://free100.co/cli-uploader/sorry-video-1672131215/entry_sorry-video.m3u8"
       }
     ]
+  },
+  {
+    "title": "Lost Destiny (2025) พรหมลิขิตรักชิงชิว",
+    "group": "หนังเอเชีย",
+    "logo": "https://bbk100.xyz/media/cache/strip/202506/movie/bc47d747363cc22f21174abafebcf36a.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/lost-destiny-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Lost-Destiny-2025-tha.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Good Bad Ugly (2025) ดี ชั่ว ก็ลุยดะ",
+    "group": "หนังเอเชีย",
+    "logo": "https://bbk100.xyz/media/cache/strip/202506/movie/a87b0bfc035e2e1bfe4b2fd13ed4e403.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/good-bad-ugly-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Good-Bad-Ugly-2025-sub.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Dragon Treasure (2024) โลงคุกมังกร",
+    "group": "หนังเอเชีย",
+    "logo": "https://bbk100.xyz/media/cache/strip/202505/movie/52ed87052cfec6a5c9d792f1f6388059.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/dragon-treasure-2024",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Dragon-Treasure-2024-tha.mp4.m3u8"
+      }
+    ]
   }
 ]

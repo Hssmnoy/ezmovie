@@ -10102,5 +10102,17 @@
         "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-8801-to-8900/c0552b12-b57f-4379-b398-a91296ab2783___Phineas.and.Ferb.The.Movie.Candace.Against.The.Universe.2020._Ott_Hls_Ts_Avc_Aac_16x9_1280x720p_6.0Mbps_qvbr/hls/Phineas.and.Ferb.The.Movie.Candace.Against.The.Universe.2020._Ott_Hls_Ts_Avc_Aac_16x9_1280x720p_6.0Mbps_qvbr.m3u8"
       }
     ]
+  },
+  {
+    "title": "The Super Mario Galaxy Movie (2026) เดอะ ซูเปอร์ มาริโอ กาแล็คซี่ มูฟวี่",
+    "group": "หนังผจญภัย-adventure",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/44ccf560e2bb8f0296336abc59486caa.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-super-mario-galaxy-movie-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Super-Mario-Galaxy-Movie-2026-TH-Version-1.mp4.m3u8"
+      }
+    ]
   }
 ]

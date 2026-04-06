@@ -18946,5 +18946,41 @@
         "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-4401-to-4500/60590ebe-d79b-49eb-b3d6-289fa6435fa1____Honest.Thief.2020.%20%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%A2%E0%B8%A2/hls/_Honest.Thief.2020.%20%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%A2%E0%B8%A2.m3u8"
       }
     ]
+  },
+  {
+    "title": "Holland (2025) ฮอลแลนด์ เมืองหลอนซ่อนความลับ",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202503/movie/b96dfe1f00c3c21bbbb273034479ef3c.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/holland-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https:///vod1.stream25.com/Holland-2025-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "วัยสตาร์ท น็อนสต็อป (2024) Start It Up",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202504/movie/8686246f533011cfb07300381934fbc1.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/start-it-up-2024",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Start-It-Up-2024-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Good Bad Ugly (2025) ดี ชั่ว ก็ลุยดะ",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202506/movie/a87b0bfc035e2e1bfe4b2fd13ed4e403.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/good-bad-ugly-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Good-Bad-Ugly-2025-sub.mp4.m3u8"
+      }
+    ]
   }
 ]

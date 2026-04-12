@@ -3994,5 +3994,29 @@
         "url": "https://vod1.stream25.com/Mudborn-2025-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Thrash (2026) ฉลามคลั่ง ทะเลเดือด",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/b4ea7b581856154bcbd898c5ffa9aaf2.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/thrash-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Thrash-2026-tha.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Omniscient Reader The Prophecy (2025) อ่านชะตา วันสิ้นโลก",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/b921bfb61265ebba309ee3c0129baad2.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/omniscient-reader-the-prophecy-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Omniscient-Reader-The-Prophecy-2025-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

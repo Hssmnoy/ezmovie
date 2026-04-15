@@ -19066,5 +19066,29 @@
         "url": "https://vod1.stream25.com/The-Assessment-2025-tha.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "The Legend of Condor Hero What is love (2024) มังกรหยกท่องยุทธภพ",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202505/movie/2b7b7a33bdb9b9e8b3d013a6a7fec3d3.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-legend-of-condor-hero-what-is-love-2024",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Legend-of-Condor-Hero-What-is-love-2024-sub.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "The Match (2025) เดอะ แมทช์",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202505/movie/cba0a7a2539be67583dd07b18c31b64a.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-match-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Match-2025-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

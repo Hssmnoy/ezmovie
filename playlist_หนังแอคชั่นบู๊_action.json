@@ -20158,5 +20158,17 @@
         "url": "https://vod1.stream25.com/Novoland-2024-tha.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Balls Up (2026) โกลาหล บอลโลก",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/resolve/strip/202604/movie/506bed96cd5b34b06a66bd5555f952e6.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/balls-up-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Balls-Up-2026-tha.mp4.m3u8"
+      }
+    ]
   }
 ]

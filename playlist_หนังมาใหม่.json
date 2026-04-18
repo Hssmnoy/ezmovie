@@ -4018,5 +4018,17 @@
         "url": "https://vod1.stream25.com/Omniscient-Reader-The-Prophecy-2025-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Together (2025) ดูดร่างสร้างรัก",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/6f21398ca5765b1252e73bf0c1c5e2c6.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/together-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Together-2025-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

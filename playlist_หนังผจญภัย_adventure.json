@@ -10330,5 +10330,17 @@
         "url": "https://vod1.stream25.com/Panda-Plan-2024-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "The Vault (Way Down) (2021) บรรยายไทยแปล",
+    "group": "หนังผจญภัย-adventure",
+    "logo": "https://bbk100.xyz/media/cache/strip/202302/movie/2bc18fa86c6788358195d7555ab72164.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-vault-way-down-2021-%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%81%E0%B8%9B%E0%B8%A5",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-3801-to-3900/540aec16-6ccc-4029-af2f-ed061557a829___Way%20Down%202021%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A/hls/Way%20Down%202021%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A.m3u8"
+      }
+    ]
   }
 ]

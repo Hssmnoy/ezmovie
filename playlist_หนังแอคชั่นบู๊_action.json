@@ -20170,5 +20170,53 @@
         "url": "https://vod1.stream25.com/Balls-Up-2026-tha.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Apex (2026) ห่วงโซ่สังหาร",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/be33a91c2cda1d47e6ac379eb0cf46f6.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/apex-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Apex-2026-tha.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "มือปืน (2025) The Last Shot",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/d700d606a9d9a76d720cf2027339cb91.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-last-shot-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Last-Shot-2025-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Vengeance (2026) ปฏิบัติการเดือดเลือดล้างเลือด",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202604/movie/a35c9e9299c9f4e7ba9a6f15a16f8d64.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/vengeance-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Vengeance-2026-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Monsters: 103 Mercies Dragon Damnation (2024) ร้อยสาม จิตอาวรณ์ ขุนศึกผยอง มังกรทะยานฟ้า",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202401/movie/45253d3d9b2f2b6afc90dae0e114cf47.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/monsters-103-mercies-dragon-damnation-2024",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://free100.co/cli-uploader/monsters-103-2024-th-1706149485/entry_monsters-103-2024-th.m3u8"
+      }
+    ]
   }
 ]

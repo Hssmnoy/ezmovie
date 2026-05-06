@@ -19318,5 +19318,41 @@
         "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-5901-to-6000/819cc2fc-5ff0-4a99-acfa-ac5bd51d7ec3___Under.the.Amalfi.Sun.2022.%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%9A/hls/Under.the.Amalfi.Sun.2022.%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%9A.m3u8"
       }
     ]
+  },
+  {
+    "title": "The Devil Wears Prada 2 (2026) นางมารสวมปราด้า 2",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/019851cc99c77513ee4b42bfa6aa60e9.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-devil-wears-prada-2-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Devil-Wears-Prada-2-2026-V1-tha.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Clika (2026) คลิกา ฝ่าชะตาล่าฝัน",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/5aca5eaa4824f9222397103842369243.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/clika-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Clika-2026-tha.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "The Surfer (2025) กูจะเซิร์ฟ",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/1e522ece8bbe8fe9d6378a4fd2f9dc77.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-surfer-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Surfer-2025-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

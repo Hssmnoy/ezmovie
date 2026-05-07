@@ -19354,5 +19354,17 @@
         "url": "https://vod1.stream25.com/The-Surfer-2025-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "The Drama (2026) แต่งก็บ้า..ดราม่าเบอร์นี้",
+    "group": "หนังดราม่า-drama",
+    "logo": "https://bbk100.xyz/media/cache/resolve/strip/202605/movie/d37f50e7ccb7f78f4145d3e8c7b8461e.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-drama-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Drama-2026-V1-tha.mp4.m3u8"
+      }
+    ]
   }
 ]

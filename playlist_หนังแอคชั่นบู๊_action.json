@@ -20266,5 +20266,29 @@
         "url": "https://vod1.stream25.com/Normal-2026-TH-Version-1.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "เลือดรัก​ นักฆ่า (2026) My Dearest Assassin",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/ca8ceea596143558439536ca3dad2731.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/my-dearest-assassin-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/My-Dearest-Assassin-2026-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "The LEGO Ninjago Movie (2017) เดอะ เลโก้ นินจาโก มูฟวี่",
+    "group": "หนังแอคชั่นบู๊-action",
+    "logo": "https://bbk100.xyz/media/cache/strip/202206/movie/7b95f250e6b0e87e1adc1ed21fe4e9c2.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-lego-ninjago-movie-2017-%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0-%E0%B9%80%E0%B8%A5%E0%B9%82%E0%B8%81%E0%B9%89-%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B9%82%E0%B8%81-%E0%B8%A1%E0%B8%B9%E0%B8%9F%E0%B8%A7%E0%B8%B5%E0%B9%88",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-10001-to-10100/da9075cf-061d-4de2-8a9f-c00ba96ca431____The.Lego.Ninjago.Movie.2017.1080%E0%B9%84%E0%B8%97%E0%B8%A2-01/hls/_The.Lego.Ninjago.Movie.2017.1080%E0%B9%84%E0%B8%97%E0%B8%A2-01.m3u8"
+      }
+    ]
   }
 ]

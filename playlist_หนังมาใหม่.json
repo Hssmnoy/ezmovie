@@ -4222,5 +4222,29 @@
         "url": "https://vod1.stream25.com/Clika-2026-tha.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "เลือดรัก​ นักฆ่า (2026) My Dearest Assassin",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/ca8ceea596143558439536ca3dad2731.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/my-dearest-assassin-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/My-Dearest-Assassin-2026-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "The Drama (2026) แต่งก็บ้า..ดราม่าเบอร์นี้",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/d37f50e7ccb7f78f4145d3e8c7b8461e.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-drama-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Drama-2026-V1-tha.mp4.m3u8"
+      }
+    ]
   }
 ]

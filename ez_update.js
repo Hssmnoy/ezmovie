@@ -19,7 +19,7 @@ const CATEGORIES = [
   "/movies/หนังผจญภัย-adventure",
   "/movies/หนังเกาหลี",
   "/movies/หนังญี่ปุ่น",
-  "/movies/หนังผู้ใหญ่-18-adult",
+  
 ];
 
 const TEST_MODE = false;   //false//true;

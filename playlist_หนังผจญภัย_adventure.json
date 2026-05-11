@@ -10354,5 +10354,29 @@
         "url": "https://ezmoviehd.co/file/aws-converter/movies-aws-5201-to-5300/70fc5009-f13c-4239-8e04-e4717404c050___Pixels%20%282015%29%20%E0%B8%9E%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%8B%E0%B8%A5%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%9A/hls/Pixels%20%282015%29%20%E0%B8%9E%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%8B%E0%B8%A5%20%E0%B8%8B%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%9A.m3u8"
       }
     ]
+  },
+  {
+    "title": "Biker (2026) ซิ่งเดือดสายเลือดนักบิด",
+    "group": "หนังผจญภัย-adventure",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/917f1bdaf5552248dc8385d9f31251fb.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/biker-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Biker-2026-SUB.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Swapped (2026) สลับร่างผจญภัย",
+    "group": "หนังผจญภัย-adventure",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/3b1415f1a34c545e7a929d663868b331.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/swapped-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Swapped-2026-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

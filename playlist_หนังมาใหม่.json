@@ -4246,5 +4246,17 @@
         "url": "https://vod1.stream25.com/The-Drama-2026-V1-tha.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Biker (2026) ซิ่งเดือดสายเลือดนักบิด",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/917f1bdaf5552248dc8385d9f31251fb.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/biker-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Biker-2026-SUB.mp4.m3u8"
+      }
+    ]
   }
 ]

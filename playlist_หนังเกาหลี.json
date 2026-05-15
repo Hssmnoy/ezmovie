@@ -1378,5 +1378,17 @@
         "url": "https://vod1.stream25.com/Omniscient-Reader-The-Prophecy-2025-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Dark Nuns (2025) ไล่มันกลับลงหลุม",
+    "group": "หนังเกาหลี",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/c7e404db7f47da3689a2256dd1dcd49b.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/dark-nuns-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Dark-Nuns-2025-TH.mp4.m3u8"
+      }
+    ]
   }
 ]

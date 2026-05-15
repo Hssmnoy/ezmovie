@@ -4270,5 +4270,29 @@
         "url": "https://vod1.stream25.com/Immaculate-2024-TH.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Dark Nuns (2025) ไล่มันกลับลงหลุม",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/c7e404db7f47da3689a2256dd1dcd49b.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/dark-nuns-2025",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Dark-Nuns-2025-TH.mp4.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "The Punisher One Last Kill (2026) เดอะ พันนิชเชอร์ ฆ่าทิ้งทวน",
+    "group": "หนังมาใหม่",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/8c5d9dc23baf8b07bb0cc823ebf39375.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/the-punisher-one-last-kill-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/The-Punisher-One-Last-Kill-2026-tha.mp4.m3u8"
+      }
+    ]
   }
 ]

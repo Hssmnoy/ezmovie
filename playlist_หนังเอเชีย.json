@@ -14242,5 +14242,17 @@
         "url": "https://vod1.stream25.com/Biker-2026-SUB.mp4.m3u8"
       }
     ]
+  },
+  {
+    "title": "Evils Return (2026) การกลับมาของปีศาจร้าย",
+    "group": "หนังเอเชีย",
+    "logo": "https://bbk100.xyz/media/cache/strip/202605/movie/983a673f1d02de27895ac8840158f2d0.jpg",
+    "movieUrl": "https://ezmovie.movie/movie/evils-return-2026",
+    "servers": [
+      {
+        "name": "M3U8",
+        "url": "https://vod1.stream25.com/Evils-Return-2026-tha.mp4.m3u8"
+      }
+    ]
   }
 ]
